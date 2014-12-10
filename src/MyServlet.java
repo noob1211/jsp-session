@@ -27,7 +27,7 @@ public class MyServlet extends HttpServlet {
 		
 		response.setContentType("text/html");
 		response.getWriter().print("hello world!");
-		response.getWriter().print("<script>alert('hello')</script>");
+		response.getWriter().print("<script>alert('nothing to see here!')</script>");
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
